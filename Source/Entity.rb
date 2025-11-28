@@ -19,3 +19,16 @@ class Entity
   end
 
 end
+
+class AttackAction
+  attr_accessor :Name
+  attr_accessor :Attack, :ManaCost, :Accuracy
+
+  def initialize(name, attack, mana_cost, accuracy)
+    self.Name     = name
+    self.Attack   = attack
+    self.ManaCost = mana_cost
+    self.Accuracy = accuracy
+  end
+
+end
