@@ -11,6 +11,9 @@ class Entity
     self.HP   = hp
     self.Mana = mana
 
+    self.MaxHP    = max_hp
+    self.MaxMana  = max_mana
+
     self.LV       = lv
     self.EXP      = exp
     self.MaxEXP   = max_exp
