@@ -1,12 +1,13 @@
 
 class Entity
   attr_accessor :HP, :Mana
+  attr_accessor :MaxHP, :MaxMana
   attr_accessor :LV, :EXP, :MaxEXP
   attr_accessor :Strength, :Defence, :SpecialStrength, :SpecialDefence
   attr_accessor :Speed
   
 
-  def initialize(hp, mana, lv, exp, max_exp, strength, defence, special_strength, special_defence, speed)
+  def initialize(hp, mana,  max_hp, max_mana,  lv, exp, max_exp,  strength, defence, special_strength,  special_defence, speed)
     self.HP   = hp
     self.Mana = mana
 
