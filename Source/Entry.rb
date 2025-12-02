@@ -1,5 +1,7 @@
 
-require_relative  'Entity.rb'
+require_relative  './Entity.rb'
+
+ePlayer = Entity.new(1,0, 1,0,  0,0,0,  0,0,0,0, 0)
 
 wInput = ""
 
