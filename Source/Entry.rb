@@ -20,8 +20,6 @@ while wInput != "exit"
 
   wInput = gets.chomp
   wInput = wInput.downcase
-
-  puts wInput
   
   # Commands
   if wInput == "0" || wInput == "attack" || wInput == "att"
