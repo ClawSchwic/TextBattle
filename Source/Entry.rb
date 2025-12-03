@@ -8,5 +8,28 @@ wInput = ""
 
 # The game loop
 while wInput != "exit"
+  
+  # Output battle input
+  puts ""
+  puts "Commands"
+  puts "0 : Attack"
+  puts "1 : Spell"
+  puts "2 : Action"
+  puts "3 : Items"
+  puts ""
+
   wInput = gets.chomp
+  wInput = wInput.downcase
+
+  puts wInput
+  
+  # Commands
+  if wInput == "0" || wInput == "attack" || wInput == "att"
+  end
+  if wInput == "1" || wInput == "spell" || wInput == "spl"
+  end
+  if wInput == "2" || wInput == "action" || wInput == "act"
+  end
+  if wInput == "3" || wInput == "items" || wInput == "itm"
+  end
 end
